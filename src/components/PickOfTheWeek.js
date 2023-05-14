@@ -11,7 +11,10 @@ const PickOfTheWeek = () => {
         <Container>
             <Row className='align-items-center'>
                 <Col md={7}>
-                    <img src={require('../assets/center.jpg')} fluid={true} />
+                    <img 
+                    src={require('../assets/center.jpg')} 
+                    fluid={true}
+                    alt='pizza' />
                 </Col>
                 <Col md={5}>
                     <div className='p-3'>
